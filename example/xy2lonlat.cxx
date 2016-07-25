@@ -9,5 +9,5 @@ int main (int argc, char **argv) {
   double ang[2];
   healpix hp(4,3);
   hp.xy2ang(ang, x, y);
-  printf("%f %f\n", ang[0]*180/M_PI, ang[1]*180/M_PI);
+  printf("%.12f %.12f\n", ang[0]*180/M_PI, ang[1]*180/M_PI);
 }
